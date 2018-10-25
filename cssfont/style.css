@@ -260,11 +260,7 @@ width: 240px;
 /*
 }
 .s1{
-	height:170px;
-	width: 1500px;
-	top: 392px;
-	left:0px;
-	background-color: rgb(5,255,255);
+
 }
 }
 .s2{
@@ -294,6 +290,20 @@ width: 240px;
 }
 }
 */
+
+
+
+
+}
+.l{
+
+}
+.l1{
+	top: 450px;
+	left:50px;
+	width: 18px;
+	height:250px;
+	background-color: black;
 }
 .clip1 {
   top: -15px;
@@ -338,4 +348,15 @@ width: 240px;
 	top: 392px;
 	left:0px;
 	background-color: rgb(255,255,255);
+}
+
+p{
+	position: absolute;
+	font-family: helvetica;
+	font-size: 15pt;
+	text-align: justify;
+	top: 450px;
+	left:100px;
+	width: 445px;
+
 }
