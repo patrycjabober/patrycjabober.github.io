@@ -1,0 +1,450 @@
+.p1{
+position: absolute;
+  top: 550px;
+  left: 450px;
+  font-size: 100pt;
+  color: black;
+  font-family: chalet-london-sixty, sans-serif;
+font-style: normal;
+font-weight: 700;
+color: rgb(150,150,150);
+}
+
+.sixties{
+	background-image: url("six.png");
+	position: absolute;
+	background-size: contain;
+	height: 475px;
+	width: 200px;
+	top:50px;
+	left:100px;
+}
+
+.seventies{
+	background-image: url("seven.png");
+	position: absolute;
+	background-size: contain;
+	height: 475px;
+	width: 200px;
+	top:50px;
+	left:1050px;
+}
+
+.eighties{
+	background-image: url("eight.png");
+	position: absolute;
+	background-size: contain;
+	height: 475px;
+	width: 200px;
+	top:50px;
+	left:2100px;
+}
+
+.ninties{
+	background-image: url("nine.png");
+	position: absolute;
+	background-size: contain;
+	height: 475px;
+	width: 200px;
+	top:750px;
+	left:100px;
+}
+
+.twos{
+	background-image: url("twos.png");
+	position: absolute;
+	background-size: contain;
+	height: 475px;
+	width: 200px;
+	top:750px;
+	left:1050px;
+}
+
+.tens{
+	background-image: url("tens.png");
+	position: absolute;
+	background-size: contain;
+	height: 475px;
+	width: 200px;
+	top:750px;
+	left:2100px;
+}
+
+
+
+
+.eight{
+	background-image: url("eight.png");
+	background-size: contain;
+	position: absolute;
+	height: 1039px;
+	width: 365px;
+	top:150px;
+	left:1700px;
+}
+
+.warm{
+	background-image: url("warm-02.png");
+	position: absolute;
+	height: 500px;
+	width: 300px;
+	top:200px;
+	left:100px;
+}
+
+.mom{
+	background-image: url("mom-04.png");
+	position: absolute;
+	height: 500px;
+	width: 300px;
+	top:600px;
+	left:100px;
+}
+
+.legg{
+	background-image: url("leg-01.png");
+	position: absolute;
+	height: 500px;
+	width: 300px;
+	top:600px;
+	left:800px;
+}
+.blazer{
+	background-image: url("blazer-03.png");
+	position: absolute;
+	height: 500px;
+	width: 300px;
+	top:200px;
+	left:800px;
+}
+.p5{
+position: absolute;
+  top: 40px;
+  left: 20px;
+  font-size: 150pt;
+  color: black;
+  font-family: chalet-london-sixty, sans-serif;
+font-style: normal;
+font-weight: 700;
+color: rgb(150,150,150);
+}
+
+
+
+
+
+
+
+.seven{
+	background-image: url("seven.png");
+	background-size: contain;
+	position: absolute;
+	height: 800px;
+	width: 300px;
+	top:230px;
+	left:1700px;
+}
+
+.pumps{
+	background-image: url("pump-02.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 300px;
+	top:200px;
+	left:100px;
+}
+.bell{
+	background-image: url("bell-04.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 300px;
+	top:600px;
+	left:100px;
+}
+
+.wrap{
+	background-image: url("wrap-03.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 300px;
+	top:600px;
+	left:800px;
+}
+
+.vest{
+	background-image: url("vest-03.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 300px;
+	top:200px;
+	left:800px;
+}
+.p6{
+position: absolute;
+  top: 40px;
+  left: 20px;
+  font-size: 150pt;
+  color: black;
+  font-family: chalet-london-sixty, sans-serif;
+font-style: normal;
+font-weight: 700;
+color: rgb(150,150,150);
+}
+
+
+
+
+
+
+
+
+
+
+.six{	
+	background-image: url("six.png");
+	background-size: contain;
+	position: absolute;
+	height: 880px;
+	width: 365px;
+	top:150px;
+	left:1700px;
+}
+.beret{
+	background-image: url("beret-03.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 280px;
+	top:200px;
+	left:100px;
+}
+.turtleneck{
+	background-image: url("turtle-04.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 300px;
+	top:600px;
+	left:100px;
+}
+
+.gogo{
+	background-image: url("gogo-01.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 300px;
+	top:600px;
+	left:800px;
+}
+
+.mini{
+	background-image: url("mini-02.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 300px;
+	top:200px;
+	left:800px;
+}
+.p7{
+position: absolute;
+  top: 40px;
+  left: 20px;
+  font-size: 150pt;
+  color: black;
+  font-family: chalet-london-sixty, sans-serif;
+font-style: normal;
+font-weight: 700;
+color: rgb(150,150,150);
+}
+
+
+
+
+
+
+
+.nine{
+	background-image: url("nine.png");
+	background-size: contain;
+	position: absolute;
+	height: 892px;
+	width: 365px;
+	top:150px;
+	left:1700px;
+}
+
+
+.fanny{
+	background-image: url("fanny-02.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 280px;
+	top:200px;
+	left:100px;
+}
+.pleat{
+	background-image: url("pleat-04.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 300px;
+	top:600px;
+	left:100px;
+}
+
+.slip{
+	background-image: url("slip-03.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 300px;
+	top:600px;
+	left:800px;
+}
+
+.crop{
+	background-image: url("crop-01.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 300px;
+	top:200px;
+	left:800px;
+}
+.p4{
+position: absolute;
+  top: 40px;
+  left: 20px;
+  font-size: 150pt;
+  color: black;
+  font-family: chalet-london-sixty, sans-serif;
+font-style: normal;
+font-weight: 700;
+color: rgb(150,150,150);
+}
+
+
+
+
+
+.two{
+	background-image: url("twos.png");
+	background-size: contain;
+	position: absolute;
+	height: 800px;
+	width: 365px;
+	top:330px;
+	left:1700px;
+}
+
+.bag{
+	background-image: url("bag-02.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 280px;
+	top:300px;
+	left:100px;
+}
+.halter{
+	background-image: url("halter-01.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 300px;
+	top:700px;
+	left:100px;
+}
+
+.track{
+	background-image: url("track-03.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 300px;
+	top:450px;
+	left:800px;
+}
+.p3{
+position: absolute;
+  top: 40px;
+  left: 20px;
+  font-size: 150pt;
+  color: black;
+  font-family: chalet-london-sixty, sans-serif;
+font-style: normal;
+font-weight: 700;
+color: rgb(150,150,150);
+}
+
+
+
+
+
+
+.ten{
+	background-image: url("tens.png");
+	background-size: contain;
+	position: absolute;
+	height: 775px;
+	width: 365px;
+	top:275px;
+	left:1700px;
+}
+
+.nike{
+	background-image: url("nike-04.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 280px;
+	top:200px;
+	left:100px;
+}
+.high{
+	background-image: url("high-02.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 300px;
+	top:600px;
+	left:100px;
+}
+
+.skinny{
+	background-image: url("skinny-03.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 300px;
+	top:600px;
+	left:800px;
+}
+
+.wind{
+	background-image: url("wind-01.png");
+	position: absolute;
+	background-size: contain;
+	height: 500px;
+	width: 300px;
+	top:200px;
+	left:800px;
+}
+.p2{
+position: absolute;
+  top: 40px;
+  left: 20px;
+  font-size: 150pt;
+  color: black;
+  font-family: chalet-london-sixty, sans-serif;
+font-style: normal;
+font-weight: 700;
+color: rgb(150,150,150);
+}
