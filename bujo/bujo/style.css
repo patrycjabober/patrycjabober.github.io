@@ -1,0 +1,59 @@
+h3{
+	color: rgb(150,150,150);
+	font-family: 'Bodoni 72';
+	font-weight: 700;
+}
+h1{
+	font-family: 'Bodoni 72';
+
+}
+h6{
+	font-family: 'Bodoni 72';
+	color: rgb(150,150,150);
+}
+
+h4{
+	color: rgb(150,150,150);
+	font-family: 'Bodoni 72';
+	font-weight: 700;
+}
+
+p{
+	font-family: Myriad Pro;
+	line-height: 70pt;
+}
+
+.pic{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("dot.png");
+  opacity: .05;
+}
+img{
+	width:100%;
+}
+/*
+.palm{
+	position: absolute;
+	background-image: url(palm.jpg)
+ 	height: 20px;
+}
+*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+	margin:auto;
+	width: 84vw;
+}
+.home{
+	position: absolute;
+	background-image: url(home-03.png);
+	right: 10px
+}
