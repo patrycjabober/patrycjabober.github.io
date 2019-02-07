@@ -15,8 +15,14 @@ h6{
 }
 
 h4{
-	color: black;
 	font-family: 'Playfair Display', serif;
+	color: rgb(159,196,229);
+	font-weight: 700;
+}
+
+h3{
+	font-family: 'Playfair Display', serif;
+	color: black;
 	font-weight: 500;
 }
 
