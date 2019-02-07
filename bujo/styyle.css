@@ -1,5 +1,5 @@
 h3{
-	color: rgb(212,140,255);
+	color: rgb(193,229,176);
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
 }
@@ -47,13 +47,6 @@ img{
  	height: 20px;
 }
 */
-ol{
-	font-family: Myriad Pro;
-}
-
-li{
-	padding-bottom: 7px;
-}
 
 html, body {
   margin: 0;
@@ -74,4 +67,9 @@ body{
 	width: 75px;
 top: -5px;
 right: 5px;
+}
+
+.flower{
+	background-image: url("flo.png");
+	transform: scale(.05);
 }

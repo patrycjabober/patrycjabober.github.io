@@ -1,5 +1,5 @@
 h3{
-	color: rgb(212,140,255);
+	color: rgb(150,150,150);
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
 }
@@ -8,22 +8,32 @@ h1{
 	font-weight: 900;
 
 }
-h6{
+h5{
 	font-family: 'Playfair Display', serif;
 	color: rgb(150,150,150);
 	font-style: italic;
 }
 
 h4{
-	color: rgb(150,150,150);
 	font-family: 'Playfair Display', serif;
+	color: rgb(255,190,221);
+	font-weight: 700;
+}
+
+h3{
+	font-family: 'Playfair Display', serif;
+	color: black;
 	font-weight: 500;
 }
 
 p{
 	font-family: Myriad Pro;
 	line-height: 20pt;
-	
+
+}
+
+li{
+	padding-top: 1px;
 }
 
 .pic{
@@ -47,13 +57,6 @@ img{
  	height: 20px;
 }
 */
-ol{
-	font-family: Myriad Pro;
-}
-
-li{
-	padding-bottom: 7px;
-}
 
 html, body {
   margin: 0;
