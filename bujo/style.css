@@ -1,5 +1,5 @@
 h3{
-	color: rgb(212,140,255);
+	color: rgb(155,194,196);
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
 }
@@ -25,6 +25,12 @@ p{
 	line-height: 20pt;
 	
 }
+h5{
+	color: rgb(150,150,150);
+	font-family: 'Playfair Display', serif;
+	font-weight: 500;
+	padding-top: 20px;
+}
 
 .pic{
 	z-index: -1;
@@ -49,10 +55,12 @@ img{
 */
 ol{
 	font-family: Myriad Pro;
+	padding: 0;
 }
 
 li{
-	padding-bottom: 7px;
+	padding:0; 
+	line-height: 20pt;
 }
 
 html, body {
@@ -64,14 +72,58 @@ body{
 	margin:auto;
 	width: 84vw;
 }
-.home{
-	position: fixed;
+.learn{
+	position: relative;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-image: url(home-03.png);
-	height: 75px;
-	width: 75px;
-top: -5px;
-right: 5px;
+	background-image: url(learn.png);
+	height: 70px;
+	width: 155px;
+	top: 10px;
+	left:90px;
+}
+.daily{
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(daily.png);
+	height: 70px;
+	width: 155px;
+	top: 10px;
+	left:90px;
+}
+.seven{
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(seven.png);
+	height: 70px;
+	width: 155px;
+	top: 10px;
+	left:90px;
+}
+.bloom{
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(bloom.png);
+	height: 70px;
+	width: 155px;
+	top: 10px;
+	left:90px;
+}
+.buzz{
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(buz.png);
+	height: 70px;
+	width: 155px;
+	top: 010px;
+	left:90px;
 }

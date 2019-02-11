@@ -11,12 +11,12 @@ h1{
 h5{
 	font-family: 'Playfair Display', serif;
 	color: rgb(150,150,150);
-	font-style: italic;
+padding-top: 20px;
 }
 
 h4{
 	font-family: 'Playfair Display', serif;
-	color: rgb(166,199,229);
+	color: rgb(125,183,186);
 	font-weight: 700;
 }
 
@@ -34,6 +34,15 @@ p{
 
 li{
 	padding-top: 5px;
+}
+ol{
+	font-family: Myriad Pro;
+	padding: 0;
+}
+
+li{
+	padding:0; 
+	line-height: 20pt;
 }
 
 .pic{
@@ -66,6 +75,17 @@ html, body {
 body{
 	margin:auto;
 	width: 84vw;
+}
+.buzz{
+	position: relative;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(buz.png);
+	height: 175px;
+	width: 325px;
+	top: 55px;
+	left:0px;
 }
 .home{
 	position: fixed;
