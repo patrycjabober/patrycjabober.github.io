@@ -1,0 +1,365 @@
+div {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+}
+.one{
+	top: 220px;
+  	left: 440px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.two{
+	top: 220px;
+  	left: 540px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.three{
+	top: 220px;
+  	left: 640px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.four{
+	top: 220px;
+  	left: 740px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.five{
+	top: 220px;
+  	left: 840px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.six{
+	top: 220px;
+  	left: 940px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.seven{
+	top: 220px;
+  	left: 1040px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.eight{
+	top: 220px;
+  	left: 1140px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.nine{
+	top: 220px;
+  	left: 1240px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.ten{
+	top: 220px;
+  	left: 1340px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.eleven{
+	top: 320px;
+  	left: 440px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.twelve{
+	top: 320px;
+  	left: 540px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.thirteen{
+	top: 320px;
+  	left: 640px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fourteen{
+	top: 320px;
+  	left: 740px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fifteen{
+	top: 320px;
+  	left: 840px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.sixteen{
+	top: 320px;
+  	left: 940px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.seventeen{
+	top: 320px;
+  	left: 1040px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.eighteen{
+	top: 320px;
+  	left: 1140px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.nineteen{
+	top: 320px;
+  	left: 1240px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.twenty{
+	top: 320px;
+  	left: 1340px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.twoone{
+	top: 420px;
+  	left: 440px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.twotwo{
+	top: 420px;
+  	left: 540px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.twothree{
+	top: 420px;
+  	left: 640px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.twofour{
+	top: 420px;
+  	left: 740px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.twofive{
+	top: 420px;
+  	left: 840px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.twosix{
+	top: 420px;
+  	left: 940px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.twoseven{
+	top: 420px;
+  	left: 1040px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.twoeight{
+	top: 420px;
+  	left: 1140px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.twonine{
+	top: 420px;
+  	left: 1240px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.thirty{
+	top: 420px;
+  	left: 1340px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.threeone{
+	top: 520px;
+  	left: 440px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.threetwo{
+	top: 520px;
+  	left: 540px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.threethree{
+	top: 520px;
+  	left: 640px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.threefour{
+	top: 520px;
+  	left: 740px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.threefive{
+	top: 520px;
+  	left: 840px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.threesix{
+	top: 520px;
+  	left: 940px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.threeseven{
+	top: 520px;
+  	left: 1040px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.threeeight{
+	top: 520px;
+  	left: 1140px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.threenine{
+	top: 520px;
+  	left: 1240px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fourty{
+	top: 520px;
+  	left: 1340px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fourone{
+	top: 620px;
+  	left: 440px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fourtwo{
+	top: 620px;
+  	left: 540px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fourthree{
+	top: 620px;
+  	left: 640px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fourfour{
+	top: 620px;
+  	left: 740px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fourfive{
+	top: 620px;
+  	left: 840px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.foursix{
+	top: 620px;
+  	left: 940px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fourseven{
+	top: 620px;
+  	left: 1040px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.foureight{
+	top: 620px;
+  	left: 1140px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fournine{
+	top: 620px;
+  	left: 1240px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fifty{
+	top: 620px;
+  	left: 1340px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fiveone{
+	top: 720px;
+  	left: 440px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fivetwo{
+	top: 720px;
+  	left: 540px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fivethree{
+	top: 720px;
+  	left: 640px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fivefour{
+	top: 720px;
+  	left: 740px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fivefive{
+	top: 720px;
+  	left: 840px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fivesix{
+	top: 720px;
+  	left: 940px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fiveseven{
+	top: 720px;
+  	left: 1040px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fiveeight{
+	top: 720px;
+  	left: 1140px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.fivenine{
+	top: 720px;
+  	left: 1240px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
+.sixty{
+	top: 720px;
+  	left: 1340px;
+  	background-color: rgb(245, 20, 20); 
+  	border-radius: 50%;
+}
