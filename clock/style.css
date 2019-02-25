@@ -5,7 +5,7 @@ div{
 
 }
 .red{
-  animation: animationA 3600s linear, animationB 43200s steps(1);
+  animation: animationA 3600s linear, animationB 3600s steps(1);
   animation-iteration-count: infinite; 
 }
 .dot{
@@ -427,41 +427,43 @@ div{
 0%{
   transform:scale(1);
 }
+/*
 8.33%%{
-  transform: scale(1.09);
+  transform: scale(1.0833);
 }
 16.66% {
-  transform: scale(1.18);
+  transform: scale(1.166);
   }
   25% {
-  transform: scale(1.27);
+  transform: scale(1.25);
   }
   33.33% {
-  transform: scale(1.36);
+  transform: scale(1.33);
   }
   41.66% {
-  transform: scale(1.45);
+  transform: scale(1.4166);
   }
   50% {
-  transform: scale(1.54);
+  transform: scale(1.5);
   }
   58.33% {
-  transform: scale(1.63);
+  transform: scale(1.5833);
   }
   66.66% {
-  transform: scale(1.72);
+  transform: scale(1.66);
   }
   75% {
-  transform: scale(1.81);
+  transform: scale(1.75);
   }
   83.33% {
-  transform: scale(1.90);
+  transform: scale(1.833);
   }
   91.66% {
-  transform: scale(2);
+  transform: scale(1.9166);
   }
+*/  
 100%{
-  transform: scale(1);
+  transform: scale(2);
 }
 }
 @keyframes animationC{
@@ -526,7 +528,7 @@ div{
   top: 327px;
   left: 847px;
 }
-25%{
+25%{gghgfh
   top: 327px;
   left: 947px;
 }
