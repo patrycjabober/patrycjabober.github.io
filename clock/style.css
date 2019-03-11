@@ -5,7 +5,7 @@ div{
 
 }
 .red{
-  animation: animationA 60s linear /*animationB 3600s steps(1)*/;
+  animation: animationA 30s linear /*animationB 3600s steps(1)*/;
   animation-iteration-count: infinite; 
 }
 
