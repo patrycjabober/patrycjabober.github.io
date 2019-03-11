@@ -10,11 +10,18 @@ div{
 }
 
 .red.alarm{
-  animation-name: grow;
+  animation-name: flash;
+  animation-duration: 30s;
+  animation-iteration-count: 3; 
+  animation-fill-mode: forwards;
+  
+}
+.red.snooze{
+  animation-name: stop;
   animation-duration: 60s;
   animation-iteration-count: 1; 
   animation-fill-mode: forwards;
-  
+
 }
 .dot.alarm{
   opacity: 0;
@@ -26,8 +33,30 @@ div{
   background-color: white !important;
   top: 220px;
   left: 440px;
-  animation: animationC 5s steps(1);
+  animation: animationC 10s steps(1);
   animation-iteration-count: infinite; 
+}
+
+.screen{
+  width:2000px; 
+  height:2000px;
+  top:0px;
+  left: 0px;
+  background-color: white;
+  opacity: 0;
+  z-index: 99;
+}
+.screen.snooze{
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards;
+}
+.grow.snooze{
+  animation-name: tada;
+  animation-duration: 2s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards;
 }
 .one{
 
@@ -390,92 +419,111 @@ div{
     background-color: rgb(245, 20, 20); 
     border-radius: 50%;
 }
-@keyframes grow{
+@keyframes flash{
   0%{
     transform: scale(1);
   }
   5%{
     transform: scale(50);
-    opacity: 1;
+    opacity: .30;
   }
   10%{
-    opacity: 0;
-    transform: scale(50)
+    transform: scale(50);
+    opacity: .05;
   }
   15%{
     transform: scale(50);
-    opacity: 1;
-  }
-  20%{
     opacity: 0;
-    transform: scale(50)
+  }
+  10%{
+    transform: scale(50);
+    opacity: .05;
   }
    25%{
     transform: scale(50);
-    opacity: 1;
+    opacity: .30;
   }
-  30%{
-    opacity: 0;
-    transform: scale(50)
+  20%{
+    transform: scale(50);
+    opacity: .05;
   }
   35%{
     transform: scale(50);
-    opacity: 1;
+    opacity: 0;
+  }
+  30%{
+    transform: scale(50);
+    opacity: .05;
+  }
+  45%{
+    transform: scale(50);
+    opacity: .30;
   }
   40%{
-    opacity: 0;
-    transform: scale(50)
-  }
-   45%{
     transform: scale(50);
-    opacity: 1;
-  }
-  50%{
-    opacity: 0;
-    transform: scale(50)
+    opacity: 0.05;
   }
   55%{
     transform: scale(50);
-    opacity: 1;
+    opacity: 0;
+  }
+  50%{
+    transform: scale(50);
+    opacity: .05;
+  }
+  65%{
+    transform: scale(50);
+    opacity: .30;
   }
   60%{
-    opacity: 0;
-    transform: scale(50)
-  }
-   65%{
     transform: scale(50);
-    opacity: 1;
-  }
-  70%{
-    opacity: 0;
-    transform: scale(50)
+    opacity: 0.05;
   }
   75%{
     transform: scale(50);
-    opacity: 1;
+    opacity: 0;
   }
   80%{
-    opacity: 0;
-    transform: scale(50)
-  }
-   85%{
     transform: scale(50);
-    opacity: 1;
+    opacity: .05;
+  }
+  85%{
+    transform: scale(50);
+    opacity: .3;
   }
   90%{
-    opacity: 0;
-    transform: scale(50)
+    transform: scale(50);
+    opacity: .05;
   }
   95%{
     transform: scale(50);
-    opacity: 1;
+    opacity: 0;
   }
   100%{
     opacity: 1;
     transform: scale(50)
   }
 }
+@keyframes appear{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
 
+@keyframes tada{
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
 
 @keyframes animationA {
 
