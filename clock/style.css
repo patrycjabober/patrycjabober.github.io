@@ -47,7 +47,7 @@ div{
   left: 497px;
   opacity: 0;
 }
-.button.snooze{
+.button.alarm{
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -56,6 +56,12 @@ div{
   left: 497px;
   opacity: 1;
   z-index: 99;
+}
+.button.snooze{
+  animation-name: disappear;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; 
 }
 .screen{
   width:2000px; 
@@ -535,6 +541,15 @@ div{
     opacity: 0;
   }
 }
+
+@keyframes disappear{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+ }
 
 @keyframes tada{
   0%{

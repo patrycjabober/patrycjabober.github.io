@@ -2,14 +2,15 @@
 $(document).ready(function(){
 
   setTimeout(function(){
-    $(".red").addClass("alarm"); 
+    $(".red").addClass("alarm");
+    $(".button").addClass("alarm"); 
     $(".dot").addClass("alarm");
   }, 5000);
 
    $(".screen").click(function() { 
-    $(".button").addClass("snooze");
-    $(".screen").addClass("snooze");
-   	setTimeout(function(){
+      $(".button").addClass("snooze");
+      $(".screen").addClass("snooze");
+       	setTimeout(function(){
    		$(".grow").addClass("snooze");
    	},1000);
     setTimeout(function(){
