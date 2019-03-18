@@ -1,0 +1,42 @@
+html {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.background {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  margin: auto;
+  width: 1024px;
+  height: 748px;
+  background-image: url("scenery.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+.gorl{
+  position: absolute;
+  bottom: 300px;
+  left: 400px;
+  width: 300px;
+  height: 300px;
+  background-image: url("idle.png");
+  animation-name: spriteSheet;
+  animation-duration: 1000ms;
+  animation-timing-function: steps(2); /* number of frames in sprite (not counting the final blank space) */
+  background-position: 0 center;
+  background-size: cover;
+  transition-property: left, margin-bottom;
+  transition-timing-function: linear, ease-in-out;
+  pointer-events: none;
+  animation-iteration-count: infinite;
+}
+@keyframes spriteSheet {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 100% center;
+  }
+}
