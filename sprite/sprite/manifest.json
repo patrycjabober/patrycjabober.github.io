@@ -1,0 +1,15 @@
+{
+  "name": "why are crying?",
+  "short_name": "why are crying?",
+  "lang": "en-US",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "landscape",
+  "icons": [
+    {
+      "src": "icons/bicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
