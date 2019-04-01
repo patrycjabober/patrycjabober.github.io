@@ -117,16 +117,19 @@ body {
   background-image: url("monster.png");
   background-size: cover;
   animation-name: spriteSheet;
-  animation-duration: 500ms;
+  animation-duration: 1000ms;
   animation-timing-function: steps(2); /* number of frames in sprite (not counting the final blank space) */
   animation-iteration-count: infinite;  
   pointer-events: none;
 }
 
 .monster.was-hit {
+  background-image:url(deadmonster.png);
+  /*animation-timing-function: steps(6);
+  animation-duration: 3000ms;*/
   opacity: 0;
-  bottom: -200px;
-  transition: opacity 400ms linear, bottom 800ms linear;
+  /*bottom: -200px;
+  transition: opacity 400ms linear, bottom 800ms linear;*/
 }
 
 .preload-image {
