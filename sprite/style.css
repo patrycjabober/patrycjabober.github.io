@@ -26,8 +26,7 @@ body {
   line-height: 30px;
   font-size: 16px;
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-family: Baskerville;
   color: white;
   opacity: 0;
   z-index: 10;
@@ -42,15 +41,13 @@ body {
 .score {
   position: absolute;
   top: 10px;
-  right: 10px;
-  width: 40px;
-  height: 40px;
+  right: 40px;
+  width: 42px;
+  height: 42px;
   line-height: 40px;
-  border-radius: 50%;
-  background-color: rgb(243, 128, 25);
+  background-image: url("skull.png");
   color: white;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-family: Baskerville;
   font-size: 22px;
   text-align: center;
 }
@@ -114,11 +111,11 @@ body {
   width: 200px;
   height: 400px;
   bottom: 125px;
-  background-image: url("monster.png");
+  background-image: url("monsteer.png");
   background-size: cover;
   animation-name: spriteSheet;
   animation-duration: 1000ms;
-  animation-timing-function: steps(2); /* number of frames in sprite (not counting the final blank space) */
+  animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
   animation-iteration-count: infinite;  
   pointer-events: none;
 }
