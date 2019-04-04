@@ -111,22 +111,27 @@ body {
   width: 200px;
   height: 400px;
   bottom: 125px;
-  background-image: url("monsteer.png");
+  background-image: url("monster.png");
   background-size: cover;
   animation-name: spriteSheet;
   animation-duration: 1000ms;
-  animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
+  animation-timing-function: steps(2); /* number of frames in sprite (not counting the final blank space) */
   animation-iteration-count: infinite;  
+  opacity: 1;
   pointer-events: none;
 }
 
 .monster.was-hit {
+  animation-name: spriteSheet2;
   background-image:url(deadmonster.png);
-  /*animation-timing-function: steps(6);
-  animation-duration: 3000ms;*/
-  opacity: 0;
-  /*bottom: -200px;
-  transition: opacity 400ms linear, bottom 800ms linear;*/
+  animation-timing-function: steps(7);
+  animation-duration: 2000ms;
+  animation-iteration-count: 1;
+  animation-direction: forwards;
+  opacity: 1;
+
+   /*bottom: -200px;*/
+  transition: opacity 2000ms linear;
 }
 
 .preload-image {
@@ -145,3 +150,11 @@ body {
     background-position: 100% center;
   }
 }
+
+@keyframes spriteSheet2 {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 100% center;
+  }
